@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav>
+        <h1><img src="images/main-logo-1.png" alt="" height="30px" width="40px">New Nest Creations</h1>
+        <ul>
+            <li> <input type="checkbox" id="toggle">
+                <label for="toggle"></label></li>
+            <li>Store
+                <div class="drop">
+                    <ul>
+                        <li>Trending</li>
+                        <li>Top Brands
+                            <div class="drop2">
+                                <ul>
+                                    <li>Costco</li>
+                                    <li>Peloton</li>
+                                    <li>Chick-fil-A</li>
+                                    <li>Nike</li>
+                                    <li>Start Bucks</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>Accessories</li>
+                    </ul>
+                </div>
+            </li>
+            <li>About us</li>
+            <li>Home</li>
+            <i class="fa-solid fa-magnifying-glass" style="font-size: 1.3rem;"></i>&nbsp;&nbsp;&nbsp;&nbsp;<input
+                type="search" placeholder="Search">
+
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1 data-text="Let's&nbsp;Evolve&nbsp;">Let's Evolve </h1>
+        <p>
+            "evolve" can refer to various contexts,technological advancements, or the evolution of programming languages
+            and software</p>
+    </div>
+
+
+    <div class="con2">
+        <h1>Features</h1>
+        <div class="row">
+            <div class="col">
+                <div class="image"></div>
+                <div class="text">
+                    <p>
+                        C is a powerful general-purpose programming language
+                    </p>
+                </div>
+            </div>
+
+            <div class="col2">
+                <div class="image"></div>
+                <div class="text">
+                    <p>
+                        Java is a versatile, object-oriented programming language
+                    </p>
+                </div>
+            </div>
+
+            <div class="col3">
+                <div class="image"></div>
+                <div class="text">
+                    <p>
+                        HTML and CSS use
+                        for building and designing web pages</p>
+                </div>
+            </div>
+
+            <div class="col4">
+                <div class="image"></div>
+                <div class="text">
+                    <p>
+                        Python is a high-level, interpreted programming language
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+    </div><br>
+
+    <div class="app">
+        <center>
+            <h1>Applications</h1>
+        </center>
+        <br>
+        <div class="app-con">
+            <div class="app-img"></div>
+            <div class="app-text">
+                <p>
+                    Flutter is an open-source UI software development kit by Google, enabling the development of
+                    natively compiled applications for mobile (iOS, Android), web, and desktop from a single codebase.
+                    It uses the Dart programming language and features a rich set of pre-designed widgets, enabling fast
+                    and expressive UI creation. Flutter's key advantages include rapid development, high performance,
+                    and a single codebase for multiple platforms</p>
+            </div>
+        </div>
+        <br><br>
+        <div class="app-con2">
+            <div class="app-text2">
+                <p>
+
+                    React is an open-source JavaScript library developed by Facebook for building user interfaces,
+                    primarily for single-page applications. It allows developers to create reusable UI components and
+                    manage the state of complex applications efficiently. React uses a virtual DOM for optimized
+                    rendering and offers a unidirectional data flow, making it easier to debug and maintain. It is
+                    widely used for its flexibility, performance, and robust ecosystem, including tools like React
+                    Router for routing and Redux for state management.
+                </p>
+            </div>
+            <div class="app-img2">
+            </div>
+        </div>
+        <div class="app-con">
+            <div class="app-img3"></div>
+            <div class="app-text">
+                <p>
+                    Unity is a popular cross-platform game engine that has expanded beyond game development into
+                    applications for various platforms, including mobile, desktop, and AR/VR. It uses C# as its primary
+                    scripting language and offers a robust development environment with a strong focus on ease of use
+                    and versatility. Unity's asset store provides a wealth of pre-made assets and plugins, making it a
+                    powerful tool for both beginners and experienced developers alike.
+                </p>
+            </div>
+        </div>
+        <br><br>
+    </div><br><br>
+<hr><br>
+    <div class="footer">
+        <h2><img src="images/main-logo-1.png" alt="" height="30px" width="40px"><br>New <br>Nest <br> Creations</h2>
+        <div class="box">
+            <h3>Question? Call 000-003-0066</h3>
+            <h3>FAQ</h3>
+            <h3>Investor Relation</h3>
+            <h3>Privacy</h3>
+            
+        </div>
+        <div class="box">
+            <h3>Help Center</h3>
+            <h3>Jobs</h3>
+            <h3>Cookies</h3>
+            <h3>Leagal Notices</h3>
+        </div>
+        <div class="box">
+            <h3>Accounts</h3>
+            <h3>Way of Watch</h3>
+            <h3>Corporate Informations</h3>
+            <h3>Only On Creation</h3>
+        </div>
+        <div id="social" class="box">
+            <input type="text" placeholder="Send message">
+            <button>Send</button>
+         
+        </div>
+    </div>
+
+
+    <script>
+        var toggle = document.getElementById('toggle')
+        toggle.onclick = function () {
+            document.body.classList.toggle('dark-theme')
+        }
+    </script>
+</body>
+
+</html>
